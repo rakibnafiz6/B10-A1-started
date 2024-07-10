@@ -158,3 +158,23 @@ main{
 .section-pic-3{
     margin: 100px 145px 74px 149px;
 }
+/* video-section -styles */
+.video-title{
+font-size: 32px;
+font-weight: 800;
+color:rgb(13,19,33) ;
+text-align: center;
+margin-top: 88px;
+margin-bottom: 24px;
+margin-left: 40px;
+margin-left: 144px;
+}
+.video-description{
+font-size: 16px;
+font-weight: 400;
+color: rgb(13,19,33);
+text-align: center;
+margin-bottom: 48px;
+margin-right: 140px;
+margin-left: 144px;
+}
