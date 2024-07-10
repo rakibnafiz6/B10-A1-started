@@ -48,3 +48,113 @@ margin-left:294px ;
 .header{
     background-image: url(../assets/Hero-bg.png);
 }
+/* section styles */
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13,19,33);
+    text-align: center;
+    
+
+}
+.section-bg-color{
+    background: rgba(13,19,33,0.02);
+    border-radius: 16px;
+}
+.section-discription{
+    font-size:16px ;
+    font-weight:400px ;
+    color: rgb(13,19,33);
+    text-align: center;
+    
+}
+.coding-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13,19,33,0.7);
+}
+.coding-discription{
+    font-size:16px ;
+    font-weight: 400px;
+    color: rgb(13,19,33);
+    margin: 24px 0px 48px;
+}
+.section-btn{
+    box-sizing: border-box;
+    border: 1px rgb(13,19,33);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13,19,33);
+    padding: 12px 20px 12px 20px;
+    opacity: 0.7;
+}
+.section-pic-1{
+   max-width: 259px;
+    height: 217px;
+    margin-left: 98px;
+}
+.section-banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 16px;
+}
+/* main styles */
+main{
+    width: 1140px;
+    height: 1390px;
+    margin-top:74px ;
+    margin-left: 80px;
+    
+    margin-right:140px ;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+
+}
+.section-pic-2{
+    max-width:223px ;
+    height:208px ;
+    margin-top: 80px;
+    margin-left: 48px;
+}
+.section-banner-2{
+    display: flex;
+    justify-content: space-between;
+}
+.section-banner-content-2{
+    margin-top: 90px;
+    margin-left: 48px;
+    margin-right: 290px;
+}
+.section-banner-3{
+    display: flex;
+    justify-content: space-between;
+}
+.coding-title-2{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13,19,33,0.7);
+    margin: 90px 120px 16px 60px;
+}
+.coding-discription-2{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13,19,33);
+    margin-right: 80px;
+    margin-left: 60px;
+    margin-bottom: 32px;
+}
+.section-btn-2{
+    box-sizing: border-box;
+    border: 1px rgb(13,19,33);
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13,19,33);
+    padding: 12px 20px 12px 20px;
+    opacity: 0.7;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.section-pic-3{
+    margin: 100px 145px 74px 149px;
+}
