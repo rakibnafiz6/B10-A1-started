@@ -31,9 +31,10 @@ margin-left:294px ;
     margin-right: 616px;
     margin-left: 550px;
     border-radius: 8px;
-    padding: ;
     
 }
+
+
 .banner-pic{
     width: 240px;
     height: 240px;
@@ -101,8 +102,8 @@ margin-left:294px ;
 }
 /* main styles */
 main{
-    width: 1140px;
-    height: 1390px;
+    /* width: 1140px; */
+    /* height: 1390px; */
     margin-top:74px ;
     margin-left: 80px;
     
@@ -233,3 +234,98 @@ border-radius: 16px;
     font-weight: 700;
     text-decoration: underline;
 }
+/* footer-styles */
+
+.footer-section{
+width: 50%;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+margin: 100px 350px;
+}
+   
+.footer-description{
+    font-size:16px ;
+    font-weight: 400px;
+    text-align: center;
+    opacity: 0.7;
+    margin: 16px 0px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255,255,255);
+}
+
+.footer-title{
+   font-size: 32px;
+   font-weight: 700;
+   color: rgb(255,255,255);
+   text-align: center;
+   margin: 16px 0px;
+   padding: 0;
+   align-items: center;
+   justify-content: center;
+
+}
+.bg-img{
+    background-image: url(../assets/handshake.jpg);
+}
+footer{
+    padding: 64px 48px 64px 48px;
+    
+    
+    
+}
+footer input[type="search"]{
+    height: 57px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid rgba(13,19,33,0.15);
+    background: rgb(255,255,255);
+    padding: 19px 20px 19px 20px;
+    margin: 0px 0px;
+    width: 540px;
+    align-items: center;
+
+    /* flex-direction: row; */
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: left;
+    color: rgb(13,19,33,0.4);
+}
+footer input[type="submit"]{
+border-radius: 8px;
+background: rgb(255,255,255);
+margin: 0px 0px;
+width: 120px;
+height: 58px;
+margin-top: 10px;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+color: rgb(13,19,33);
+}
+
+ .from{
+    display: flex;
+    width: auto;
+ }
+.bottom-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 10px 10px;
+}
+.text-credit{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bs-b{
+    gap: 24px;
+}
+
+

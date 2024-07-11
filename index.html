@@ -20,9 +20,14 @@
                 <h1 class="banner-title">"In the near future,I hope to become a Developer."</h1>
                 <p class="banner-discription">I would like to be a programmer in future.that's my dream job.Im 16,and i want to start learning.programming is my passion </p>
 
-                <button class="btn-primary">contact with me</button>
-
-
+                <button class="btn-primary" type="button" onclick="bottomFunction()" >contact with me </button>
+            <script>
+                function bottomFunction() {
+                    document.body.scrollTop = document.body.scrollHeight; 
+      document.documentElement.scrollTop = document.documentElement.scrollHeight;
+                  }
+                  </script>
+                
             </div>
 
         </div>
@@ -52,8 +57,17 @@
             <div class="section-banner-content">
                 <h4 class="coding-title">I will Do Coding and change The World</h4>
                 <P class="coding-discription">programmers have the potential to change the world in numerous ways through their work.here are some ways in which programmers can make a significant impact:</P>
-                <button class="section-btn" >Learn More </button >
 
+
+                <script>
+                    function expandtext() {
+                      document.getElementById("expand").innerHTML = "This text are showing after clicking the button";
+                    }
+                    </script>
+
+                <button class="section-btn" type="button" onclick="expandtext()">Learn More </button >
+                    <p id="expand"></p>
+                    
             </div>
             <img class="section-pic-1" src="assets/Layer_1.png" alt="">
         </div>
@@ -62,8 +76,17 @@
             <div class="section-banner-content-2">
                 <h4 class="coding-title">I will help people by creating modern web system</h4>
                 <p class="coding-discription">modern website technology encompasses a broad range of tools, frameworks, programming languages, and design approaches.</p>
-                <button class="section-btn">Learn More</button>
 
+                <script>
+                    function readmore() {
+                      document.getElementById("text").innerHTML = "This text are showing after clicking the button";
+                    }
+                    </script>
+
+                <button type="button" onclick="readmore()" class="section-btn">Learn More</button>
+                <p id="text"></p>
+                
+            
             </div>
 
 
@@ -72,8 +95,15 @@
             <div class="section-banner-content-3"> 
                 <h4 class="coding-title-2">I will Do Coding and Change the World </h4>
                 <p class="coding-discription-2">technology is everywhere in the modern world and continues to develop at an astonishing rate. </p>
-                <button class="section-btn-2">Learn More</button>
 
+                <script>
+                    function moretext() {
+                      document.getElementById("more").innerHTML = "This text are showing after clicking the button";
+                    }
+                    </script>
+
+                <button type="button" onclick="moretext()" class="section-btn-2">Learn More</button>
+                <p id="more"></p>
             </div>
             <img class="section-pic-3" src="assets/Group 4.png" alt="">
         </div>
@@ -81,10 +111,11 @@
 
 
         </section>
-        <section>
+        <section >
             <h3 class="video-title">my inspiration</h3>
             <p class="video-description">my inspiration in web-development actually was a bunce of events in my life.programming is my hobbies.web development many things for html,css,javascrift are very interesting</p>
-            <video width="1200" controls src="https://videocdn.cdnpk.net/videos/167b3693-c0be-409a-b932-342abcd6951b/horizontal/previews/clear/large.mp4?token=exp=1720588641~hmac=987b40a44754dd08917b33ae7646c672a8f3dc686f94bf2d435c64ac0e8014ca"></video>
+            <video class="video"  width="1200" controls><source src="assets/video.mp3.mp4">  </video>
+            
         </section>
         <section class="skills">
             <h3 class="skill-container-title">My Current Target</h3>
@@ -115,12 +146,43 @@
            </div>
 
         </section>
+        
+           
+
+        
 
     </main>
-    <footer>
+    <footer class="bg-img">
+        
+        <div class="footer-section">
+        <div>
+        <h3 class="footer-title"> I need support  </h3>
+       <P class="footer-description"> you are not a toy that he can walk in and leaves as in when he chooses.A relationship involves two people meaning he has no right to decide things without even considering your decision.
+        </P>
+        </div>
+      <div class="from">
+    <form >
+        <input  type="search" name="" id="" placeholder="suggest me any feedback for me">
+        <input  type="submit" value="submit">
 
+
+    </form>
+</div>
+        </div>
+        
     </footer>
+    <div class="bottom-section">
+        <div class="bs-a">
+            <p class="text-credit">An open commitment by rakib khan</p>
+        </div>
 
+
+        <div class="bs-b">
+            <a href="https://www.facebook.com/profile.php?id=100087471193907"><img src="assets/facebook.png" alt=""></a>
+            <a href="https://github.com/"> <img src="assets/github.png" alt=""></a>
+            <a href="https://bd.linkedin.com/"><img src="assets/linkedin-icon 1.png" alt=""></a>
+        </div>
+    </div>
 </body>
 
 </html>
